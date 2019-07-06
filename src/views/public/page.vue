@@ -1,0 +1,25 @@
+<template>
+    <Page 
+        :current="current" 
+        :total="total" 
+        prev-text="上一页" 
+        next-text="下一页" 
+        :show-total="ifshow"
+        :page-size="20"
+        show-elevator
+    />
+</template>
+<script>
+    export default {
+        name:'page',
+       props:{
+           current:Number,//当前页
+           total:Number,//总页数
+       },
+       data(){
+           return{
+               ifshow:true,
+           }
+       }
+    }
+</script>

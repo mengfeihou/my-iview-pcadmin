@@ -1,0 +1,151 @@
+html {
+	color: #000;
+	background: #FFF;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+q:before,
+q:after {
+	content: ”;
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+html #app {
+	height: 100%;
+}
+
+
+a {
+	text-decoration: none;
+	color: #595959;
+}
+
+.work .navwrap .el-input__inner {
+	height: 30px;
+	line-height: 30px;
+	border-radius: 20px;
+}
+
+.bg-purple-light .list {
+	display: inline-block;
+	color: white;
+}
+
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: "";
+}
+
+
+.account label,.el-radio__label{
+	color: #fff;
+}
+.el-dialog__body label{
+	font-size: 12px;
+}
+
+/**弹框样式的自定义**/
+
+.el-dialog .el-dialog__title {
+	color: #868686;
+	font-size: 12px;
+}
+
+.el-dialog .el-input__inner {
+	height: 30px;
+	line-height: 30px;
+}
+
+.el-dialog .el-dialog__body {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.el-input--suffix{
+	margin-left: 20px;
+	width: 85%;
+}
+.radio .el-radio__label{
+	color: #595959 !important;
+}
